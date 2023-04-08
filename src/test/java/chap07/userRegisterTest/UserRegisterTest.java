@@ -27,7 +27,7 @@ public class UserRegisterTest {
         });
     }
 
-    @DisplayName("이미 같은 ID가 존재하면 가입 실패")
+    @DisplayName("이미 같은 ID가 존재하면 가입 실패 ")
     @Test
     void dupIdExists() {
         //이미 같은 아이디가 존재하는 상황 만들기
